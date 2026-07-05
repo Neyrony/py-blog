@@ -6,7 +6,7 @@ from blog.models import User, Post, Commentary
 
 
 @admin.register(User)
-class UserAdmin(UserAdmin):
+class CustomUserAdmin(UserAdmin):
     pass
 
 
